@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Table Styles Compilation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Optional: Some light custom styling for better visual separation */
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .section-separator {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border-top: 2px solid #e9ecef;
+            padding-top: 20px;
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+        p strong {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-5">Berbagai Gaya Tabel Bootstrap</h1>
+
+        <div class="mb-5">
+            <h2>1. Basic Table (`.table`)</h2>
+            <p>Ini adalah tampilan tabel dasar Bootstrap. Memberikan styling dasar seperti padding dan garis horizontal tipis pada setiap baris.</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>2. Striped Table (`.table-striped`)</h2>
+            <p>Menambahkan latar belakang bergaris (garis zebra) ke baris tabel untuk keterbacaan yang lebih baik.</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>3. Bordered Table (`.table-bordered`)</h2>
+            <p>Menambahkan border di semua sisi tabel dan setiap sel.</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>4. Hoverable Table (`.table-hover`)</h2>
+            <p>Menambahkan efek perubahan latar belakang saat kursor diarahkan ke atas baris tabel.</p>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>5. Dark Table (`.table-dark`)</h2>
+            <p>Membuat tabel dengan latar belakang gelap.</p>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>6. Borderless Table (`.table-borderless`)</h2>
+            <p>Menghilangkan semua border dari tabel.</p>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>7. Small Table (`.table-sm`)</h2>
+            <p>Membuat tabel dengan padding sel yang lebih kecil, sehingga tabel terlihat lebih ringkas.</p>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Nama Depan</th>
+                        <th>Nama Belakang</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nadiva</td>
+                        <td>Maulida</td>
+                        <td>nadiva.maulida@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Apriell</td>
+                        <td>Putri</td>
+                        <td>apriell.putri@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maulida</td>
+                        <td>Rizky</td>
+                        <td>maulida.rizky@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="section-separator">
+
+        <div class="mb-5">
+            <h2>8. Responsive Table (`.table-responsive`)</h2>
+            <p>Membuat tabel dapat digulir secara horizontal di layar kecil ketika kontennya melebihi lebar kontainer. Letakkan tabel di dalam div dengan kelas ini.</p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nama Depan</th>
+                            <th>Nama Belakang</th>
+                            <th>Email</th>
+                            <th>Alamat Lengkap</th>
+                            <th>Kota Asal</th>
+                            <th>Negara</th>
+                            <th>Nomor Telepon</th>
+                            <th>Pekerjaan Saat Ini</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nadiva</td>
+                            <td>Maulida</td>
+                            <td>nadiva.maulida@example.com</td>
+                            <td>Jl. Melati Indah No. 10, RT 03 RW 05</td>
+                            <td>Bontang</td>
+                            <td>Indonesia</td>
+                            <td>+62 813 1234 5678</td>
+                            <td>Designer Grafis</td>
+                        </tr>
+                        <tr>
+                            <td>Apriell</td>
+                            <td>Putri</td>
+                            <td>apriell.putri@example.com</td>
+                            <td>Jl. Kembang Sore No. 25, Gg. Anggrek</td>
+                            <td>Samarinda</td>
+                            <td>Indonesia</td>
+                            <td>+62 852 9876 5432</td>
+                            <td>Marketing Specialist</td>
+                        </tr>
+                        <tr>
+                            <td>Maulida</td>
+                            <td>Rizky</td>
+                            <td>maulida.rizky@example.com</td>
+                            <td>Jl. Harapan Baru No. 8, Komp. Sejahtera</td>
+                            <td>Balikpapan</td>
+                            <td>Indonesia</td>
+                            <td>+62 878 1122 3344</td>
+                            <td>Project Manager</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-3"><strong>Catatan:</strong> Coba kecilkan lebar jendela browser Anda untuk melihat bagaimana tabel ini akan memiliki bilah gulir horizontal.</p>
+        </div>
+
+    </div>
+</body>
+</html>
